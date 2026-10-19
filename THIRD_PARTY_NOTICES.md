@@ -18,8 +18,8 @@ change those terms. Full license texts are available at the links given.
 | TanStack Virtual | 3.14 | MIT | https://github.com/TanStack/virtual |
 | Rust crates used by the app (serde, serde_json, log and their dependencies) | various | MIT or Apache-2.0 | https://crates.io |
 
-The mitmproxy and Python components keep their license files inside the app at
-`AegisCeptor.app/Contents` (in the bundled mitmproxy distribution).
+mitmproxy is shipped inside the app as the official standalone build from downloads.mitmproxy.org
+(`AegisCeptor.app/Contents/Resources/engine/mitmproxy.tar.gz`), unmodified. Its license is reproduced below.
 
 ## mitmproxy license (MIT)
 
