@@ -1,7 +1,7 @@
 # AegisCeptor — Releases
 
-Installer resmi **AegisCeptor** untuk macOS (Apple Silicon, M1 ke atas).
-mitmproxy dan bridge sudah ada di dalam app: tidak perlu Homebrew, Node, atau Python.
+Official installer for **AegisCeptor** on macOS (Apple Silicon, M1 and newer).
+mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python needed.
 
 ## Install
 
@@ -9,27 +9,27 @@ mitmproxy dan bridge sudah ada di dalam app: tidak perlu Homebrew, Node, atau Py
 curl -fsSL https://raw.githubusercontent.com/jimmyleonardo/aegis-ceptor-releases/main/install.sh | bash
 ```
 
-Script ini mengambil DMG dari [rilis terbaru](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
-memasang `AegisCeptor.app` ke `/Applications`, lalu membukanya. Jalankan perintah yang sama untuk update.
+The script downloads the DMG from the [latest release](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
+installs `AegisCeptor.app` into `/Applications` and opens it. Run the same command again to update.
 
-### Manual
+### Manual install
 
-1. Download `AegisCeptor_<versi>_aarch64.dmg` dari [Releases](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest).
-2. Buka DMG, drag **AegisCeptor** ke **Applications**.
-3. App belum di-sign Apple. Kalau macOS memblokir saat pertama dibuka, jalankan:
+1. Download `AegisCeptor_<version>_aarch64.dmg` from [Releases](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest).
+2. Open the DMG and drag **AegisCeptor** into **Applications**.
+3. The app is not signed by Apple yet. If macOS blocks it on first launch, run:
    ```bash
    xattr -dr com.apple.quarantine /Applications/AegisCeptor.app
    ```
 
 ## Data
 
-Rules disimpan di `~/Library/Application Support/id.aegis-sentinel.ceptor/` dan sertifikat CA di `~/.mitmproxy/`.
-Keduanya tetap ada saat update atau install ulang.
+Rules are stored in `~/Library/Application Support/id.aegis-sentinel.ceptor/` and the CA certificate in `~/.mitmproxy/`.
+Both are kept when you update or reinstall the app.
 
 ## Uninstall
 
 ```bash
 rm -rf /Applications/AegisCeptor.app
-# opsional, hapus rules & sertifikat:
+# optional: also remove rules and the CA certificate
 rm -rf ~/Library/Application\ Support/id.aegis-sentinel.ceptor ~/.mitmproxy
 ```
