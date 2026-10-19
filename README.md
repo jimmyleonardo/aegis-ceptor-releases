@@ -3,6 +3,8 @@
 Official installer for **AegisCeptor** on macOS (Apple Silicon, M1 and newer).
 mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python needed.
 
+Created by **[Jimmy Leonardo](https://www.jimmyleonardo.com)**.
+
 ![AegisCeptor traffic list with a JSON response](screenshots/01-traffic-json.png)
 
 ## Screenshots
@@ -44,3 +46,13 @@ rm -rf /Applications/AegisCeptor.app
 # optional: also remove rules and the CA certificate
 rm -rf ~/Library/Application\ Support/id.aegis-sentinel.ceptor ~/.mitmproxy
 ```
+
+## License
+
+AegisCeptor is free to use for personal and commercial work. See [LICENSE](LICENSE) for the terms
+(no resale, no modified redistribution, no warranty). Bundled open-source components are listed in
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+
+---
+
+Made by [Jimmy Leonardo](https://www.jimmyleonardo.com).

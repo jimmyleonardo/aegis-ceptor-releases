@@ -1,0 +1,54 @@
+AegisCeptor Freeware License
+
+Copyright (c) 2026 Jimmy Leonardo (https://www.jimmyleonardo.com)
+All rights reserved.
+
+AegisCeptor ("the Software") is distributed free of charge as compiled
+application binaries (for example AegisCeptor.dmg) together with the
+installer script and documentation in this repository.
+
+1. Permission to use
+   You may download, install and use the Software free of charge, for
+   personal and commercial purposes, on any number of computers.
+
+2. Redistribution
+   You may share unmodified copies of the Software, provided this license
+   is included and no fee is charged for the Software itself. Linking to
+   this repository or to https://www.jimmyleonardo.com is preferred.
+
+3. Restrictions
+   You may not:
+   a. sell, rent or sublicense the Software;
+   b. modify, decompile, disassemble or reverse engineer the Software,
+      except where applicable law expressly permits it;
+   c. distribute modified versions of the Software;
+   d. remove or change any copyright notices or this license.
+
+4. Third-party components
+   The Software bundles open-source components (including mitmproxy,
+   Python, Node.js and Tauri). Each is licensed under its own terms,
+   listed in THIRD_PARTY_NOTICES.md. Nothing in this license limits your
+   rights under those licenses.
+
+5. Responsible use
+   The Software intercepts and decrypts network traffic. Use it only on
+   devices, applications and networks you own or are authorized to test.
+   You are solely responsible for how you use it.
+
+6. No warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+   OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+   MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+7. Limitation of liability
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+   FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OF OR OTHER
+   DEALINGS IN THE SOFTWARE.
+
+8. Termination
+   This license ends automatically if you break its terms. You must then
+   stop using the Software and delete all copies.
+
+The installer script (install.sh) in this repository is separately
+available under the MIT License, as stated at the top of that file.
