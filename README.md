@@ -9,12 +9,12 @@ mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python
 curl -fsSL https://raw.githubusercontent.com/jimmyleonardo/aegis-ceptor-releases/main/install.sh | bash
 ```
 
-The script downloads the DMG from the [latest release](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
+The script downloads `AegisCeptor.dmg` from the [latest release](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
 installs `AegisCeptor.app` into `/Applications` and opens it. Run the same command again to update.
 
 ### Manual install
 
-1. Download `AegisCeptor_<version>_aarch64.dmg` from [Releases](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest).
+1. Download [AegisCeptor.dmg](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest/download/AegisCeptor.dmg) (always the latest version).
 2. Open the DMG and drag **AegisCeptor** into **Applications**.
 3. The app is not signed by Apple yet. If macOS blocks it on first launch, run:
    ```bash

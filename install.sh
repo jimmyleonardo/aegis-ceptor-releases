@@ -14,20 +14,17 @@ if [ "$(uname -m)" != "arm64" ]; then
   echo "This build is for Apple Silicon (M1 and newer). Intel Macs are not supported yet." >&2; exit 1
 fi
 
-echo "→ Looking up the latest release…"
-URL=$(curl -fsSL "https://api.github.com/repos/$REPO/releases/latest" \
-  | grep -o '"browser_download_url": *"[^"]*aarch64\.dmg"' | head -1 | cut -d'"' -f4)
-if [ -z "$URL" ]; then
-  echo "No DMG found in the latest release of $REPO." >&2; exit 1
-fi
+URL="https://github.com/$REPO/releases/latest/download/AegisCeptor.dmg"
 
 TMP=$(mktemp -d)
 MNT="$TMP/mnt"
 cleanup() { hdiutil detach "$MNT" -quiet 2>/dev/null || true; rm -rf "$TMP"; }
 trap cleanup EXIT
 
-echo "→ Download $(basename "$URL")…"
-curl -fL --progress-bar "$URL" -o "$TMP/AegisCeptor.dmg"
+echo "→ Downloading the latest AegisCeptor…"
+if ! curl -fL --progress-bar "$URL" -o "$TMP/AegisCeptor.dmg"; then
+  echo "Download failed: no AegisCeptor.dmg in the latest release of $REPO." >&2; exit 1
+fi
 
 echo "→ Installing to $DEST…"
 mkdir -p "$MNT"
