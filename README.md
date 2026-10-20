@@ -1,4 +1,4 @@
-# AegisCeptor — Releases
+# AegisCeptor | Releases
 
 Official installer for **AegisCeptor** on macOS (Apple Silicon, M1 and newer).
 mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python needed.
