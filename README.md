@@ -10,7 +10,9 @@ Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **[Jimmy L
 
 ![AegisCeptor](screenshots/cover.png)
 
-**New in 1.3:** automatic updates, bug reports with masked secrets, a waterfall timeline, alerts when a request
+**New in 1.4:** 14-day free trial and license keys. The toolbar shows the days left; activate your key in **About**.
+
+**Since 1.3:** automatic updates, bug reports with masked secrets, a waterfall timeline, alerts when a request
 fails, repeat a request N times, and OpenAPI generation plus API change detection from captured traffic.
 
 **Since 1.2:** connect AI assistants (Claude Code, Codex CLI, Antigravity, Claude Desktop, Cursor…) through MCP in one
