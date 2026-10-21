@@ -7,9 +7,11 @@ Created by **[Jimmy Leonardo](https://www.jimmyleonardo.com)**.
 
 ![AegisCeptor](screenshots/cover.png)
 
-**New in 1.2:** connect AI assistants (Claude Code, Codex CLI, Antigravity, Claude Desktop, Cursor…) through MCP in one
-click, session files, Copy as cURL / fetch / Python / Swift / Kotlin, WebSocket breakpoints, a native macOS menu bar and
-a cleaner toolbar.
+**New in 1.3:** automatic updates, bug reports with masked secrets, a waterfall timeline, alerts when a request
+fails, repeat a request N times, and OpenAPI generation plus API change detection from captured traffic.
+
+**Since 1.2:** connect AI assistants (Claude Code, Codex CLI, Antigravity, Claude Desktop, Cursor…) through MCP in one
+click, session files, Copy as cURL / fetch / Python / Swift / Kotlin, WebSocket breakpoints and a native macOS menu bar.
 
 ![AegisCeptor traffic list with a JSON response](screenshots/01-traffic-json.png)
 
@@ -30,7 +32,8 @@ curl -fsSL https://raw.githubusercontent.com/jimmyleonardo/aegis-ceptor-releases
 ```
 
 The script downloads `AegisCeptor.dmg` from the [latest release](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
-installs `AegisCeptor.app` into `/Applications` and opens it. Run the same command again to update.
+installs `AegisCeptor.app` into `/Applications` and opens it. Run the same command again to update. From 1.3.0 the app also updates itself: click **Install & restart** when it
+tells you a new version is available.
 
 ### Manual install
 
