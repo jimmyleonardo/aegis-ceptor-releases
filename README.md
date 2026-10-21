@@ -3,7 +3,10 @@
 Official installer for **AegisCeptor** on macOS (Apple Silicon, M1 and newer).
 mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python needed.
 
-Created by **[Jimmy Leonardo](https://www.jimmyleonardo.com)**.
+Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **[Jimmy Leonardo](https://www.jimmyleonardo.com)**.
+
+**Try it free for 14 days**, then buy a license at [aegisceptor.com](https://aegisceptor.com/#pricing):
+**Lifetime** ($15, 2 Macs) or **Yearly** ($10 / year, 1 Mac).
 
 ![AegisCeptor](screenshots/cover.png)
 
@@ -44,6 +47,15 @@ tells you a new version is available.
    xattr -dr com.apple.quarantine /Applications/AegisCeptor.app
    ```
 
+## License key
+
+During the trial the toolbar shows how many days are left. To activate a license:
+
+1. Buy one at [aegisceptor.com](https://aegisceptor.com/#pricing). The key is sent to your email.
+2. In the app, open **⋯ → About AegisCeptor**, paste the key and click **Activate**.
+
+To move a license to another Mac, click **Deactivate on this Mac** in About first, then activate it on the new Mac.
+
 ## Data
 
 Rules are stored in `~/Library/Application Support/id.aegis-sentinel.ceptor/` and the CA certificate in `~/.mitmproxy/`.
@@ -61,10 +73,10 @@ rm -rf ~/Library/Application\ Support/id.aegis-sentinel.ceptor ~/.mitmproxy
 
 ## License
 
-AegisCeptor is free to use for personal and commercial work. See [LICENSE](LICENSE) for the terms
+AegisCeptor is free to try for 14 days. After that it needs a license key, valid for personal and commercial work. See [LICENSE](LICENSE) for the terms
 (no resale, no modified redistribution, no warranty). Bundled open-source components are listed in
 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 ---
 
-Made by [Jimmy Leonardo](https://www.jimmyleonardo.com).
+Made by [Jimmy Leonardo](https://www.jimmyleonardo.com) · [aegisceptor.com](https://aegisceptor.com) · support@aegisceptor.com

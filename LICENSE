@@ -1,28 +1,37 @@
-AegisCeptor Freeware License
+AegisCeptor End User License
 
 Copyright (c) 2026 Jimmy Leonardo (https://www.jimmyleonardo.com)
 All rights reserved.
 
-AegisCeptor ("the Software") is distributed free of charge as compiled
-application binaries (for example AegisCeptor.dmg) together with the
-installer script and documentation in this repository.
+AegisCeptor ("the Software") is distributed as compiled application
+binaries (for example AegisCeptor.dmg) together with the installer script
+and documentation in this repository.
 
-1. Permission to use
-   You may download, install and use the Software free of charge, for
-   personal and commercial purposes, on any number of computers.
+1. Trial and license
+   a. You may install and use the Software free of charge for 14 days to
+      evaluate it (the "trial"). After the trial the Software stops working
+      until a license key is activated.
+   b. A license is personal to the person or company that bought it. Each
+      license key may be active on the number of computers stated at
+      purchase. You may deactivate it on one computer and activate it on
+      another at any time.
+   c. A license may be used for personal and commercial work.
+   d. Licenses are sold through Lemon Squeezy, which acts as the merchant
+      of record. Its terms apply to payments, taxes and refunds. A refunded
+      license is deactivated.
 
 2. Redistribution
-   You may share unmodified copies of the Software, provided this license
-   is included and no fee is charged for the Software itself. Linking to
-   this repository or to https://www.jimmyleonardo.com is preferred.
+   You may share unmodified copies of the installer and DMG, provided this
+   license is included. You may not share, sell or publish license keys.
 
 3. Restrictions
    You may not:
-   a. sell, rent or sublicense the Software;
-   b. modify, decompile, disassemble or reverse engineer the Software,
+   a. sell, rent or sublicense the Software or license keys;
+   b. bypass, disable or tamper with the trial or license checks;
+   c. modify, decompile, disassemble or reverse engineer the Software,
       except where applicable law expressly permits it;
-   c. distribute modified versions of the Software;
-   d. remove or change any copyright notices or this license.
+   d. distribute modified versions of the Software;
+   e. remove or change any copyright notices or this license.
 
 4. Third-party components
    The Software bundles open-source components (including mitmproxy,
