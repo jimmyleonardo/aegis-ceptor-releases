@@ -6,7 +6,7 @@ mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python
 Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera Labs**.
 
 **Try it free for 14 days**, then buy a license at [aegisceptor.com](https://aegisceptor.com/#pricing):
-**Lifetime** ($15, 2 Macs) or **Yearly** ($10 / year, 1 Mac).
+**Lifetime** ($25, 1 Mac) or **Yearly** ($10 / year, 1 Mac).
 
 ![AegisCeptor](screenshots/cover.png)
 
