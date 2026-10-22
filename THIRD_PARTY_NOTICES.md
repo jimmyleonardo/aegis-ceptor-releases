@@ -1,6 +1,6 @@
 # Third-Party Notices
 
-AegisCeptor is made by [Jimmy Leonardo](https://www.jimmyleonardo.com) and bundles the open-source
+AegisCeptor is made by [Prontera Labs](https://aegisceptor.com) and bundles the open-source
 components below. Each component remains under its own license; the AegisCeptor license does not
 change those terms. Full license texts are available at the links given.
 

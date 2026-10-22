@@ -3,7 +3,7 @@
 Official installer for **AegisCeptor** on macOS (Apple Silicon, M1 and newer).
 mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python needed.
 
-Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **[Jimmy Leonardo](https://www.jimmyleonardo.com)**.
+Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera Labs**.
 
 **Try it free for 14 days**, then buy a license at [aegisceptor.com](https://aegisceptor.com/#pricing):
 **Lifetime** ($15, 2 Macs) or **Yearly** ($10 / year, 1 Mac).
@@ -81,4 +81,4 @@ AegisCeptor is free to try for 14 days. After that it needs a license key, valid
 
 ---
 
-Made by [Jimmy Leonardo](https://www.jimmyleonardo.com) · [aegisceptor.com](https://aegisceptor.com) · support@aegisceptor.com
+Made by Prontera Labs · [aegisceptor.com](https://aegisceptor.com) · admin@pronteralabs.id

@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Copyright (c) 2026 Jimmy Leonardo (https://www.jimmyleonardo.com). MIT License.
+# Copyright (c) 2026 Prontera Labs (https://aegisceptor.com). MIT License.
 # Install AegisCeptor (Apple Silicon) from the latest GitHub release.
 # Usage: curl -fsSL https://raw.githubusercontent.com/jimmyleonardo/aegis-ceptor-releases/main/install.sh | bash
 set -euo pipefail
