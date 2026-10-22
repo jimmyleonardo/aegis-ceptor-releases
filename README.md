@@ -10,6 +10,10 @@ Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera
 
 ![AegisCeptor](screenshots/cover.png)
 
+**New in 2.0.2:** Map Local works like Mockoon: route parameters in URL patterns (`api.myapp.com/users/:id`),
+conditions on a route parameter, a **!** button to invert a condition, `{{urlParam 'id'}}` in responses, and a
+⚑ default response used when no condition matches.
+
 **New in 2.0:** signed and notarized by Apple: download, drag to Applications, open. No Terminal step needed.
 
 **Since 1.4:** 14-day free trial and license keys. The toolbar shows the days left; activate your key in **About**.
@@ -34,7 +38,7 @@ click, session files, Copy as cURL / fetch / Python / Swift / Kotlin, WebSocket 
 
 ## Install
 
-1. Download **[AegisCeptor.dmg](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest/download/AegisCeptor.dmg)** (always the latest version).
+1. Download **[AegisCeptor.dmg](https://aegisceptor.com/download)** (always the latest version).
 2. Open it and drag **AegisCeptor** into **Applications**.
 3. Open AegisCeptor. The app is signed and notarized by Apple, so macOS opens it without extra steps.
 
