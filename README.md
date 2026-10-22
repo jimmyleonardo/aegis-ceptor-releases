@@ -10,7 +10,9 @@ Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera
 
 ![AegisCeptor](screenshots/cover.png)
 
-**New in 1.4:** 14-day free trial and license keys. The toolbar shows the days left; activate your key in **About**.
+**New in 2.0:** signed and notarized by Apple: download, drag to Applications, open. No Terminal step needed.
+
+**Since 1.4:** 14-day free trial and license keys. The toolbar shows the days left; activate your key in **About**.
 
 **Since 1.3:** automatic updates, bug reports with masked secrets, a waterfall timeline, alerts when a request
 fails, repeat a request N times, and OpenAPI generation plus API change detection from captured traffic.
@@ -32,22 +34,17 @@ click, session files, Copy as cURL / fetch / Python / Swift / Kotlin, WebSocket 
 
 ## Install
 
+1. Download **[AegisCeptor.dmg](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest/download/AegisCeptor.dmg)** (always the latest version).
+2. Open it and drag **AegisCeptor** into **Applications**.
+3. Open AegisCeptor. The app is signed and notarized by Apple, so macOS opens it without extra steps.
+
+The app updates itself: click **Install & restart** when it tells you a new version is available.
+
+Prefer Terminal? This does the same in one line:
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/jimmyleonardo/aegis-ceptor-releases/main/install.sh | bash
 ```
-
-The script downloads `AegisCeptor.dmg` from the [latest release](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest),
-installs `AegisCeptor.app` into `/Applications` and opens it. Run the same command again to update. From 1.3.0 the app also updates itself: click **Install & restart** when it
-tells you a new version is available.
-
-### Manual install
-
-1. Download [AegisCeptor.dmg](https://github.com/jimmyleonardo/aegis-ceptor-releases/releases/latest/download/AegisCeptor.dmg) (always the latest version).
-2. Open the DMG and drag **AegisCeptor** into **Applications**.
-3. The app is not signed by Apple yet. If macOS blocks it on first launch, run:
-   ```bash
-   xattr -dr com.apple.quarantine /Applications/AegisCeptor.app
-   ```
 
 ## License key
 
