@@ -2,19 +2,22 @@
 
 AegisCeptor is made by [Prontera Labs](https://aegisceptor.com) and bundles the open-source
 components below. Each component remains under its own license; the AegisCeptor license does not
-change those terms. Full license texts are available at the links given.
+change those terms.
+
+The full license texts of every bundled component (including the Python packages inside mitmproxy, the npm
+packages and the Rust crates) ship inside the app: **About → Third-party notices**.
 
 ## Bundled in the app
 
 | Component | Version | License | Source |
 |---|---|---|---|
 | mitmproxy (standalone build, includes its own Python runtime and Python packages) | 12.2.3 | MIT | https://github.com/mitmproxy/mitmproxy |
-| Python | bundled with mitmproxy | PSF License | https://docs.python.org/3/license.html |
-| Node.js (bridge runtime) | 26.5.0 | MIT and others | https://github.com/nodejs/node/blob/main/LICENSE |
+| Python | 3.14 (bundled with mitmproxy) | PSF License | https://docs.python.org/3/license.html |
+| Node.js (bridge runtime) | 26.12.1 | MIT and others | https://github.com/nodejs/node/blob/main/LICENSE |
 | ws | 8.22.0 | MIT | https://github.com/websockets/ws |
 | qrcode | 1.5.4 | MIT | https://github.com/soldair/node-qrcode |
-| Tauri and Tauri plugins (dialog, opener, log) | 2.x | MIT or Apache-2.0 | https://github.com/tauri-apps/tauri |
-| React and React DOM | 19.x | MIT | https://github.com/facebook/react |
+| Tauri and Tauri plugins (dialog, notification, opener, process, updater, log) | 2.x | MIT or Apache-2.0 | https://github.com/tauri-apps/tauri |
+| React and React DOM | 19.3 | MIT | https://github.com/facebook/react |
 | TanStack Virtual | 3.14 | MIT | https://github.com/TanStack/virtual |
 | Rust crates used by the app (serde, serde_json, log and their dependencies) | various | MIT or Apache-2.0 | https://crates.io |
 
