@@ -10,6 +10,9 @@ Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera
 
 ![AegisCeptor](screenshots/cover.png)
 
+**New in 2.4:** a command palette (`⌘K`), quick status filters (2xx–5xx), compact rows, a theme that follows
+macOS, save a response body to a file, throttle per host, and roomier popups with a clearer close button.
+
 **New in 2.3:** licenses bought through Creem, a reminder 14 days before a Yearly license ends, and a clearer
 Map Local rule list that shows the full path.
 
