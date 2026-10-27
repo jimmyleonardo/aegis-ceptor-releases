@@ -6,9 +6,12 @@ mitmproxy and the bridge are bundled inside the app: no Homebrew, Node or Python
 Website: **[aegisceptor.com](https://aegisceptor.com)** · Created by **Prontera Labs**.
 
 **Try it free for 14 days**, then buy a license at [aegisceptor.com](https://aegisceptor.com/#pricing):
-**Lifetime** ($25, 1 Mac) or **Yearly** ($10 / year, 1 Mac).
+**Lifetime** ($25, 1 Mac) or **Yearly** ($15 for 1 year of use, 1 Mac, no auto-renewal).
 
 ![AegisCeptor](screenshots/cover.png)
+
+**New in 2.3:** licenses bought through Creem, a reminder 14 days before a Yearly license ends, and a clearer
+Map Local rule list that shows the full path.
 
 **New in 2.0.2:** Map Local works like Mockoon: route parameters in URL patterns (`api.myapp.com/users/:id`),
 conditions on a route parameter, a **!** button to invert a condition, `{{urlParam 'id'}}` in responses, and a
